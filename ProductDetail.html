@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <link href="public/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+    <style>
+        /*footer*/
+        .footer-dark {
+            margin-top: auto;
+            padding: 20px 0;
+            color: #f0f9ff;
+            background-color: #282d32;
+        }
+
+        .footer-dark h3 {
+            margin-top: 0;
+            margin-bottom: 12px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .footer-dark ul {
+            padding: 0;
+            list-style: none;
+            line-height: 1.6;
+            font-size: 14px;
+            margin-bottom: 0;
+        }
+
+        .footer-dark ul a {
+            color: inherit;
+            text-decoration: none;
+            opacity: 0.6;
+        }
+
+        .footer-dark ul a:hover {
+            opacity: 0.8;
+        }
+
+        @media (max-width:767px) {
+            .footer-dark .item:not(.social) {
+                text-align: center;
+                padding-bottom: 20px;
+            }
+        }
+
+        .footer-dark .item.text {
+            margin-bottom: 36px;
+        }
+
+        @media (max-width:767px) {
+            .footer-dark .item.text {
+                margin-bottom: 0;
+            }
+        }
+
+        .footer-dark .item.text p {
+            opacity: 0.6;
+            margin-bottom: 0;
+        }
+
+        .footer-dark .item.social {
+            text-align: center;
+        }
+
+        @media (max-width:991px) {
+            .footer-dark .item.social {
+                text-align: center;
+                margin-top: 20px;
+            }
+        }
+
+        .footer-dark .item.social>a {
+            font-size: 20px;
+            width: 36px;
+            height: 36px;
+            line-height: 36px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+            margin: 0 8px;
+            color: #fff;
+            opacity: 0.85;
+        }
+
+        .footer-dark .item.social>a:hover {
+            opacity: 1.0;
+        }
+
+        .footer-dark .copyright {
+            text-align: center;
+            padding-top: 24px;
+            opacity: 0.3;
+            font-size: 13px;
+            margin-bottom: 0;
+        }
+    </style>
+    <script type="text/javascript" src="public/js/jquery-3.4.1.min.js"></script>
+</head>
+<header>
+    <div id="slide-out" class="side-nav bg-dark">
+        <ul class="custom-scrollbar">
+
+            <li>
+                <div class="logo-wrapper waves-light">
+                    <a href="#"><img src="public/asset/logo.png" class="img-fluid flex-center"></a>
+                </div>
+            </li>
+
+
+            <li>
+                <form class="search-form" role="search">
+                    <div class="form-group md-form mt-0 pt-1 waves-light">
+                        <input type="text" class="form-control" placeholder="Search"/>
+                    </div>
+                </form>
+            </li>
+
+            <li>
+                <ul class="collapsible collapsible-accordion">
+                    <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> Điện
+                        tử<i class="fas fa-angle-down rotate-icon"></i></a>
+                        <div class="collapsible-body">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="waves-effect">Điện thoại di động</a>
+                                </li>
+                                <li><a href="#" class="waves-effect">Máy tính xách tay</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="fas fa-chevron-right"></i>Gia dụng<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="waves-effect">Làm bếp</a></li>
+                                <li><a href="#" class="waves-effect">Làm vườn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="collapsible-header waves-effect arrow-r">
+                            <i class="fas fa-eye"></i>About<i class="fas fa-angle-down rotate-icon"></i>
+                        </a>
+                        <div class="collapsible-body">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="waves-effect">FAQ</a></li>
+                                <li><a href="#" class="waves-effect">About me?</a></li>
+                                <li><a href="#" class="waves-effect">Us service</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="sidenav-bg mask-strong"></div>
+
+    <nav class="navbar navbar-dark fixed-top navbar-expand-lg mb-1 scrolling-navbar">
+        <div class="float-left border breadcrumb" style="padding: 10px;">
+            <a href="#" data-activates="slide-out" class="button-collapse white-text waves-effect waves-light">
+                <span class="navbar-toggler-icon  waves-effect waves-light"></span>
+            </a>
+        </div>
+        <script>
+            $(document).ready(() => {
+                // SideNav Initialization
+                $(".button-collapse").sideNav();
+
+                new WOW().init();
+            });
+        </script>
+
+        <div href="#" class="border breadcrumb mr-auto waves-effect waves-light"
+             style="padding: 10px;margin-left: 20px;">
+            <b>FIVE LEAVES</b>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+                aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon waves-effect waves-light"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+            <ul class="nav navbar-nav nav-flex-icons mt-2 ml-auto nav ">
+                <li class="nav-item">
+                    <a class="nav-link" href="/additem"><i class="fas fa-dollar-sign"></i>
+                        <span class="clearfix d-none d-sm-inline-block">Sell</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-comments"></i>
+                        <span class="clearfix d-none d-sm-inline-block">Support</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-55"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="clearfix d-none d-sm-inline-block">Mail Box</span><i class="fas fa-envelope"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-secondary"
+                         aria-labelledby="navbarDropdownMenuLink-55">
+                        <div align="center">
+                            <label display="block" align="right">Hòm Thư</label>
+                        </div>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Mail 1.....</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Mail 2......</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Mail 3.....</a>
+                        <div class="text-center">
+                            <a class="dropdown-item waves-effect waves-light" href="#">Mark all as read</a>
+                        </div>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" data-toggle="modal" data-target="#signupModal"
+                       aria-haspopup="true" aria-expanded="true">
+                        Sign Up
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light" data-toggle="modal" data-target="#loginModal"
+                       aria-haspopup="true" aria-expanded="true">
+                        Login
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+</header>
+<body class="black-skin">
+<!-- Start your project here-->
+<div class="container-fluid">
+    <div class="row">
+        <div class="card" style="width: 100%; margin-left: 2%; margin-right: 2%; margin-top: 80px">
+            <div class="card-body rounded-bottom rounded-top">
+                <h2 class="card-title">
+                    Item Name
+                </h2>
+                <div class="row" style="margin-left: 0.1%;">
+                    <div class="col-sm-12 col-lg-4" style="margin-top: 1%">
+                        <img class="hoverable" src="public/asset/cat_img.jpg" style="width: 100%; height: auto">
+                        <div class='d-flex justify-content-between' style="margin-top: 1%">
+                            <div class="hoverable" style="max-width: 32%;"><img src="public/asset/cat_img.jpg"
+                                                                                style="height: auto; width: 100%"/>
+                            </div>
+                            <div class="hoverable" style="max-width: 32%;"><img src="public/asset/cat_img.jpg"
+                                                                                style="height: auto; width: 100%"/>
+                            </div>
+                            <div class="hoverable" style="max-width: 32%;"><img src="public/asset/cat_img.jpg"
+                                                                                style="height: auto; width: 100%"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4" style="margin-top: 1%">
+                        <div class="justify-content-between winter-neva-gradient" style="padding-left: 2%">
+                            <h4 style="margin-bottom: 0px"><b>Seller: </b><a id="seller" href="/viewprofile">Seller
+                                Name</a></h4>
+                            <div id="seller-rating" class="rate"></div>
+                            <h4 style="margin-top: 10px; margin-bottom: 0px"><b>Highest Bidder: </b><a
+                                    id="highestBidder" href="/viewprofile">Bidder Name</a></h4>
+                            <div id="bidder-rating" class="rate"></div>
+                            <h4 style="margin-top: 10px" id="startDate">20/9/2019 19:00:00</h4>
+                        </div>
+                        <div style="margin-top: 3%">
+                            <h3 class="card-title text-secondary">Current: $5000</h3>
+                            <input class="quantity" style="width: 100%" min="0" name="quantity" value="1"
+                                   type="number">
+                            <button class="btn btn-primary" style="margin-left: 0 !important;">Bid</button>
+                            <button class="btn btn-amber">Buy Now</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-4" style="margin-top: 1%">
+                        <div class="p2">
+                            <div>
+                                <table class="table table-striped overflow-auto" style="border: 1px solid black">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Bidder</th>
+                                        <th scope="col">Bid</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <th scope="col">12:19 08/12/19</th>
+                                        <th scope="col">*****Txxx</th>
+                                        <th scope="col">5000000</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">12:17 08/12/19</th>
+                                        <th scope="col">***in</th>
+                                        <th scope="col">2200000</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">12:15 08/12/19</th>
+                                        <th scope="col">*****Txxx</th>
+                                        <th scope="col">2000000</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">12:12 08/12/19</th>
+                                        <th scope="col">***in</th>
+                                        <th scope="col">1200000</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col">12:10 08/12/19</th>
+                                        <th scope="col">*****Txxx</th>
+                                        <th scope="col">1000000</th>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="endDate" class="card-footer text-center mt-4">
+                    <h4 class="text-danger"><b>
+                        3 days left!!
+                    </b>
+                    </h4>
+                </div>
+                <div>
+                    <h4 class="card-title">
+                        Item Description
+                    </h4>
+                    <div class="card-text">
+                        Lorems Ipsum
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row" style="width: 100%; margin-left: 2%; margin-right: 2%; margin-top: 20px">
+        <div style="width: 100%" class="align-content-center">
+            <h3>
+                Similar Items
+            </h3>
+        </div>
+        <div class="similar-carousel col-lg-12 col-sm-12" style="margin-top: 10px; padding-right: 50px;">
+            <div class="card mx-3">
+                <img class="card-img" src="public/asset/cat_img.jpg">
+                <div class="card-title">1</div>
+                <div class="card-text">Lorems Ipsum</div>
+            </div>
+            <div class="card mx-3">
+                <img class="card-img" src="public/asset/cat_img.jpg">
+                <div class="card-title">Item 1</div>
+                <div class="card-text">Lorems Ipsum</div>
+            </div>
+            <div class="card mx-3">
+                <img class="card-img" src="public/asset/cat_img.jpg">
+                <div class="card-title">Item 1</div>
+                <div class="card-text">Lorems Ipsum</div>
+            </div>
+            <div class="card mx-3">
+                <img class="card-img" src="public/asset/cat_img.jpg">
+                <div class="card-title">Item 1</div>
+                <div class="card-text">Lorems Ipsum</div>
+            </div>
+            <div class="card mx-3">
+                <img class="card-img" src="public/asset/cat_img.jpg">
+                <div class="card-title">Item 1</div>
+                <div class="card-text">Lorems Ipsum</div>
+            </div>
+            <div class="card mx-3">
+                <img class="card-img" src="public/asset/cat_img.jpg">
+                <div class="card-title">Item 1</div>
+                <div class="card-text">Lorems Ipsum</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-dark">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3>Company Name</h3>
+                    <p>Nguyen Duc Thong</p>
+                </div>
+                <div class="col item social">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item"><a class="btn-floating btn-fb"
+                                                        href="https://www.facebook.com/Sirai.Eden"><i class="fab fa-facebook-f">
+                        </i></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-tw"><i class="fab fa-twitter">
+                        </i></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-gplus"
+                                                        href="https://www.google.com.vn"><i class="fab fa-google-plus-g">
+                        </i></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-li"><i class="fab fa-linkedin-in">
+                        </i></a></li>
+                        <li class="list-inline-item"><a class="btn-floating btn-git"
+                                                        href="https://github.com/KGRC199913/Online_Aution_Static"><i class="fab fa-github">
+                        </i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Five Leaves.Inc © 2019</p>
+        </div>
+    </footer>
+</div></body>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript " src="public/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript " src="public/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript " src="public/js/mdb.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.similar-carousel').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true,
+            dots: true,
+            lazyLoad: 'ondemand',
+            arrows: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+        $('div.rate').rateYo({
+            starWidth: "20px",
+            maxValue: 5,
+            step: 0.5,
+            halfStar: true,
+            readOnly: true
+        });
+        $('#seller-rating').rateYo("option", "rating", 4.5);
+        $('#bidder-rating').rateYo("option", "rating", 5);
+
+    });
+</script>
+</html>
