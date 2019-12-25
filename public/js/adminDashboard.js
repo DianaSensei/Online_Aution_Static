@@ -2,7 +2,7 @@ $('#categoryDropdownItem').on('click', function () {
     $('#adminManageContent').html(`
     <div class="row">
         <div class="col-lg-4 col-sm-12">
-            <button id="add-btn" class="btn btn-floating deep-purple px-1"><img src="/asset/icon/1x/add.png" alt="Add"></button>
+            <button id="add-btn" class="btn btn-floating deep-purple px-1"><img src="public/asset/icon/1x/add.png" alt="Add"></button>
         </div>
         <div class="col-lg-7 col-sm-12" style="margin-top: 18px; margin-right: 10px">
             <input class="form-control" type="text" placeholder="Search" aria-label="Search">
@@ -24,8 +24,8 @@ $('#categoryDropdownItem').on('click', function () {
         <td>Smartphone</td>
         <td style="padding: 10px !important;">
         <div>
-            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/delete.png" alt="Delete"></button>
-            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/update.png" alt="Update"></button> 
+            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/delete.png" alt="Delete"></button>
+            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/update.png" alt="Update"></button> 
         </div>
         </td>
     </tr>
@@ -35,8 +35,8 @@ $('#categoryDropdownItem').on('click', function () {
         <td>Laptop</td>
         <td style="padding: 10px !important;">
         <div>
-            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/delete.png" alt="Delete"></button>
-            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/update.png" alt="Update"></button> 
+            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/delete.png" alt="Delete"></button>
+            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/update.png" alt="Update"></button> 
         </div>
         </td>
     </tr>
@@ -48,7 +48,7 @@ $('#productDropdownItem').on('click', function () {
     $('#adminManageContent').html(`
     <div class="row">
         <div class="col-lg-4 col-sm-12">
-            <button id="add-btn" class="btn btn-floating deep-purple px-1"><img src="/asset/icon/1x/add.png" alt="Add"></button>
+            <button id="add-btn" class="btn btn-floating deep-purple px-1"><img src="public/asset/icon/1x/add.png" alt="Add"></button>
         </div>
         <div class="col-lg-7 col-sm-12" style="margin-top: 18px; margin-right: 10px">
             <input class="form-control" type="text" placeholder="Search" aria-label="Search">
@@ -74,8 +74,8 @@ $('#productDropdownItem').on('click', function () {
         <th scope="col">xxCATxx</th>
         <td style="padding: 10px !important;">
         <div>
-            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/delete.png" alt="Delete"></button>
-            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/update.png" alt="Update"></button> 
+            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/delete.png" alt="Delete"></button>
+            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/update.png" alt="Update"></button> 
         </div>
         </td>
     </tr>
@@ -87,8 +87,8 @@ $('#productDropdownItem').on('click', function () {
         <th scope="col">xxCATxx</th>
         <td style="padding: 10px !important;">
         <div>
-            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/delete.png" alt="Delete"></button>
-            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/update.png" alt="Update"></button> 
+            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/delete.png" alt="Delete"></button>
+            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/update.png" alt="Update"></button> 
         </div>
         </td>
     </tr>
@@ -99,7 +99,7 @@ $('#userDropdownItem').on('click', function () {
     $('#adminManageContent').html(`
     <div class="row">
         <div class="col-lg-4 col-sm-12">
-            <button id="add-btn" class="btn btn-floating deep-purple px-1"><img src="/asset/icon/1x/add.png" alt="Add"></button>
+            <button id="add-btn" class="btn btn-floating deep-purple px-1"><img src="public/asset/icon/1x/add.png" alt="Add"></button>
         </div>
         <div class="col-lg-7 col-sm-12" style="margin-top: 18px; margin-right: 10px">
             <input class="form-control" type="text" placeholder="Search" aria-label="Search">
@@ -123,8 +123,8 @@ $('#userDropdownItem').on('click', function () {
         <th scope="col">admin@example.com</th>
         <td style="padding: 10px !important;">
         <div>
-            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/delete.png" alt="Delete"></button>
-            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/update.png" alt="Update"></button> 
+            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/delete.png" alt="Delete"></button>
+            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/update.png" alt="Update"></button> 
         </div>
         </td>
     </tr>
@@ -135,8 +135,8 @@ $('#userDropdownItem').on('click', function () {
         <th scope="col">cutecat@abc.xyz</th>
         <td style="padding: 10px !important;">
         <div>
-            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/delete.png" alt="Delete"></button>
-            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/update.png" alt="Update"></button> 
+            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/delete.png" alt="Delete"></button>
+            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/update.png" alt="Update"></button> 
         </div>
         </td>
     </tr>
@@ -147,8 +147,8 @@ $('#userDropdownItem').on('click', function () {
         <th scope="col">meg@ghi.mno</th>
         <td style="padding: 10px !important;">
         <div>
-            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/delete.png" alt="Delete"></button>
-            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="/asset/icon/1x/update.png" alt="Update"></button> 
+            <button class="btn btn-info px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/delete.png" alt="Delete"></button>
+            <button class="btn btn btn-success px-1" style="padding: 5px !important;"><img src="public/asset/icon/1x/update.png" alt="Update"></button> 
         </div>
         </td>
     </tr>
