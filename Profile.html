@@ -21,7 +21,7 @@
 
             <li>
                 <div class="logo-wrapper waves-light">
-                    <a href="#"><img src="/asset/logo.png" class="img-fluid flex-center"></a>
+                    <a href="MenuPage.html"><img src="public/asset/logo.png" class="img-fluid flex-center"></a>
                 </div>
             </li>
 
@@ -29,7 +29,7 @@
             <li>
                 <form class="search-form" role="search">
                     <div class="form-group md-form mt-0 pt-1 waves-light">
-                        <input type="text" class="form-control" placeholder="Search" />
+                        <input type="text" class="form-control" placeholder="Search"/>
                     </div>
                 </form>
             </li>
@@ -37,7 +37,7 @@
             <li>
                 <ul class="collapsible collapsible-accordion">
                     <li><a class="collapsible-header waves-effect arrow-r"><i class="fas fa-chevron-right"></i> Điện
-                            tử<i class="fas fa-angle-down rotate-icon"></i></a>
+                        tử<i class="fas fa-angle-down rotate-icon"></i></a>
                         <div class="collapsible-body">
                             <ul class="list-unstyled">
                                 <li><a href="#" class="waves-effect">Điện thoại di động</a>
@@ -91,16 +91,18 @@
             });
         </script>
 
-        <div href="#" class="border breadcrumb mr-auto waves-effect waves-light" style="padding: 10px;margin-left: 20px;">
+        <div href="/MenuPage.html" class="border breadcrumb mr-auto waves-effect waves-light"
+             style="padding: 10px;margin-left: 20px;">
             <b>FIVE LEAVES</b>
         </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555" aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+                aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon waves-effect waves-light"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
             <ul class="nav navbar-nav nav-flex-icons mt-2 ml-auto nav ">
                 <li class="nav-item">
-                    <a class="nav-link" href="/additem"><i class="fas fa-dollar-sign"></i>
+                    <a class="nav-link" href="/SellItemPage.html"><i class="fas fa-dollar-sign"></i>
                         <span class="clearfix d-none d-sm-inline-block">Sell</span>
                     </a>
                 </li>
@@ -110,10 +112,12 @@
                     </a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-55"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <span class="clearfix d-none d-sm-inline-block">Mail Box</span><i class="fas fa-envelope"></i>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-55">
+                    <div class="dropdown-menu dropdown-menu-right dropdown-secondary"
+                         aria-labelledby="navbarDropdownMenuLink-55">
                         <div align="center">
                             <label display="block" align="right">Hòm Thư</label>
                         </div>
@@ -126,15 +130,23 @@
 
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" data-toggle="modal" data-target="#signupModal" aria-haspopup="true" aria-expanded="true">
-                        Sign Up
+                <li class="nav-item avatar dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle z-depth-0"
+                            alt="avatar image" />
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" data-toggle="modal" data-target="#loginModal" aria-haspopup="true" aria-expanded="true">
-                        Login
-                    </a>
+                    <div class="dropdown-menu dropdown-menu-right text-center dropdown-secondary"
+                        aria-labelledby="navbarDropdownMenuLink-55">
+                        <div align="center">
+                            <p display="block">Nguyễn Đức Thông</p>
+                        </div>
+                        <label display="block">Số dư</label>
+                        <p display="block">100000 VND</p>
+                        <a class="dropdown-item waves-effect waves-light" href="/Profile.html">Profile</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Security</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Sign Out</a>
+                    </div>
                 </li>
 
             </ul>
@@ -143,14 +155,14 @@
 
 </header>
 
-<body class="black-skin" style="padding-top: 80px;">
+<body class="black-skin" style="margin-top: 80px;">
 
     <div class="container-fluid pl-4 pt-4">
         <h1>Edit Profile</h1>
         <hr>
         <div class="form-row">
             <!-- left column -->
-            <div class="form-group col-md-6" style="padding-top: 30px;">
+            <div class="form-group col-md-6" style="margin-top: 30px;">
                 <div class="form-group">
                     <img src="//placehold.it/100" class="avatar img-circle" alt="avatar">
                     <h6>Upload a different photo...</h6>

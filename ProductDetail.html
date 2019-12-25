@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Material Design Bootstrap</title>
+    <title>Product Detail</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link href="public/css/mdb.min.css" rel="stylesheet">
@@ -112,7 +112,7 @@
 
             <li>
                 <div class="logo-wrapper waves-light">
-                    <a href="#"><img src="public/asset/logo.png" class="img-fluid flex-center"></a>
+                    <a href="MenuPage.html"><img src="public/asset/logo.png" class="img-fluid flex-center"></a>
                 </div>
             </li>
 
@@ -182,7 +182,7 @@
             });
         </script>
 
-        <div href="#" class="border breadcrumb mr-auto waves-effect waves-light"
+        <div href="/MenuPage.html" class="border breadcrumb mr-auto waves-effect waves-light"
              style="padding: 10px;margin-left: 20px;">
             <b>FIVE LEAVES</b>
         </div>
@@ -193,7 +193,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
             <ul class="nav navbar-nav nav-flex-icons mt-2 ml-auto nav ">
                 <li class="nav-item">
-                    <a class="nav-link" href="/additem"><i class="fas fa-dollar-sign"></i>
+                    <a class="nav-link" href="/SellItemPage.html"><i class="fas fa-dollar-sign"></i>
                         <span class="clearfix d-none d-sm-inline-block">Sell</span>
                     </a>
                 </li>
@@ -221,17 +221,23 @@
 
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" data-toggle="modal" data-target="#signupModal"
-                       aria-haspopup="true" aria-expanded="true">
-                        Sign Up
+                <li class="nav-item avatar dropdown">
+                    <a class="nav-link dropdown-toggle waves-effect waves-light" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">
+                        <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" class="rounded-circle z-depth-0"
+                            alt="avatar image" />
                     </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link waves-effect waves-light" data-toggle="modal" data-target="#loginModal"
-                       aria-haspopup="true" aria-expanded="true">
-                        Login
-                    </a>
+                    <div class="dropdown-menu dropdown-menu-right text-center dropdown-secondary"
+                        aria-labelledby="navbarDropdownMenuLink-55">
+                        <div align="center">
+                            <p display="block">Nguyễn Đức Thông</p>
+                        </div>
+                        <label display="block">Số dư</label>
+                        <p display="block">100000 VND</p>
+                        <a class="dropdown-item waves-effect waves-light" href="/Profile.html">Profile</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Security</a>
+                        <a class="dropdown-item waves-effect waves-light" href="#">Sign Out</a>
+                    </div>
                 </li>
 
             </ul>
@@ -240,6 +246,7 @@
 
 </header>
 <body class="black-skin">
+    
 <!-- Start your project here-->
 <div class="container-fluid">
     <div class="row">
